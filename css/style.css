@@ -1,0 +1,43 @@
+/* Custom Stylesheet */
+/**
+ * Use this file to override Materialize files so you can update
+ * the core Materialize files in the future
+ *
+ * Made By MaterializeCSS.com
+ */
+ @font-face{
+  font-family: 'Libre Baskerville', serif;
+  src: url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@400;700&display=swap');
+ }
+.icon-block {
+  padding: 0 15px;
+}
+.icon-block .material-icons {
+	font-size: inherit;
+}
+.row .col.s1 {
+  width: 5%;
+  margin-left: auto;
+  left: auto;
+  right: auto;}
+  body{
+
+    background-size: cover;
+    background-image: url(../img/Sin-título-1.png);
+    background-repeat: no-repeat;
+}
+
+
+
+.row {
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 10px;}
+
+
+  @media (min-width: 993px){
+.row .col.l3 {
+  margin-top:  200px;
+}
+
+}
